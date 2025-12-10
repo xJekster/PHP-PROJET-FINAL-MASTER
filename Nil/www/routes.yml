@@ -1,0 +1,67 @@
+/:
+  controller: Base
+  action: index
+
+/login:
+  controller: Auth
+  action: login
+
+/logout:
+    controller: Auth
+    action: logout
+
+/register:
+  controller: Auth
+  action: register
+
+/verify:
+  controller: Auth
+  action: verify
+
+/forgot:
+  controller: Auth
+  action: forgot
+
+/reset:
+  controller: Auth
+  action: reset
+
+/pages:
+  controller: Page
+  action: index
+
+/create:
+  controller: Page
+  action: create
+
+/edit:
+  controller: Page
+  action: edit
+
+/delete:
+  controller: Page
+  action: delete
+
+/page:
+  controller: Page
+  action: show
+
+/admin:
+  controller: Admin
+  action: index
+
+/users:
+  controller: UserAdmin
+  action: index
+
+/user/role:
+  controller: UserAdmin
+  action: updateRole
+
+/user/delete:
+  controller: UserAdmin
+  action: delete
+
+
+
+
